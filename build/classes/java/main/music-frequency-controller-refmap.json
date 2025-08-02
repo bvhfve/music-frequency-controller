@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/musiccontroller/mixin/MusicManagerMixin": {
+      "tick": "Lnet/minecraft/class_1142;method_18669()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/musiccontroller/mixin/MusicManagerMixin": {
+        "tick": "Lnet/minecraft/class_1142;method_18669()V"
+      }
+    }
+  }
+}

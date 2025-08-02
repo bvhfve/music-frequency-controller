@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "musicfrequencycontroller",
+	"version": "1.0.0",
+	"name": "Music Frequency Controller",
+	"description": "Control the frequency of vanilla background music playing with persistent settings",
+	"authors": [
+		"RovoDev"
+	],
+	"contact": {
+		"homepage": "https://github.com/rovodev/music-frequency-controller",
+		"sources": "https://github.com/rovodev/music-frequency-controller"
+	},
+	"license": "MIT",
+	"icon": "assets/musicfrequencycontroller/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.musiccontroller.MusicFrequencyController"
+		],
+		"client": [
+			"com.musiccontroller.MusicFrequencyControllerClient"
+		]
+	},
+	"mixins": [
+		"musicfrequencycontroller.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.20.1 <=1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}

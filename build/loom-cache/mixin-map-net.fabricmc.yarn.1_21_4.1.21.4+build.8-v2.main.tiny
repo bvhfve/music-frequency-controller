@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	com/musiccontroller/mixin/MusicManagerMixin	I	timeUntilNextSong	field_5572
+FIELD	com/musiccontroller/mixin/MusicManagerMixin	Lnet/minecraft/client/sound/SoundInstance;	current	field_5574
